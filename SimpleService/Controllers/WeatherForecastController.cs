@@ -18,16 +18,16 @@ namespace SimpleService.Controllers
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+        [HttpGet]
+        public WeatherForecast Get()
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            return new WeatherForecast
             {
-                Date = DateTime.Now.AddDays(index),
+                ServiceName = ServiceName.Name,
+                Date = DateTime.Now.AddDays(1),
                 TemperatureC = Random.Shared.Next(-20, 55),
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
+            };
         }
     }
 }

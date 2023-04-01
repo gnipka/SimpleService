@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleService", "SimpleService\SimpleService.csproj", "{683CF22A-3A0F-4862-9153-D0CA5D5D4CDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{85AAD67B-9F54-4A39-BAC1-0572539170F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleZooKeeper", "SimpleZooKeeper\SimpleZooKeeper.csproj", "{9EA7364B-8746-4A69-9D18-882BCBFF18AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{683CF22A-3A0F-4862-9153-D0CA5D5D4CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{683CF22A-3A0F-4862-9153-D0CA5D5D4CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{683CF22A-3A0F-4862-9153-D0CA5D5D4CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85AAD67B-9F54-4A39-BAC1-0572539170F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85AAD67B-9F54-4A39-BAC1-0572539170F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85AAD67B-9F54-4A39-BAC1-0572539170F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85AAD67B-9F54-4A39-BAC1-0572539170F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EA7364B-8746-4A69-9D18-882BCBFF18AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA7364B-8746-4A69-9D18-882BCBFF18AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA7364B-8746-4A69-9D18-882BCBFF18AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA7364B-8746-4A69-9D18-882BCBFF18AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
